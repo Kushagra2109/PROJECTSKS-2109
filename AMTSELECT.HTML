@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-color: rgb(238, 186, 43);
+    align-items: center;
+    align-content: center;
+}
+.AMT {
+  background-color: #4CAF50;
+  color: rgb(20, 20, 20);
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  align-items: center;
+}
+
+.amount {
+  position: relative;
+  left: 700px;
+  top: 100px;
+  display: inline-block;
+}
+p{
+    position: relative;
+    left: 420px;
+}
+
+h1{
+    position: relative;
+    left: 670px;
+}
+
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-content a:hover {background-color: #f1f1f1}
+
+.amount:hover .menu-content {
+  display: block;
+}
+
+.amount:hover .AMT {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+
+<h1>AMOUNT</h1>
+<p>PLEASE SELECT THE AMOUNT YOU WANT TO DONATE FROM THE BUTTON BELOW.</p>
+
+<div class="amount">
+  <button class="AMT">SELECT</button>
+  <div class="menu-content">
+  <a href="https://rzp.io/i/wkdbPKAj">Rs. 50</a>
+  <a href="https://rzp.io/i/6pXG9Gq">Rs. 100</a>
+  <a href="https://rzp.io/i/j3ohERs">Rs. 500</a>
+  <a href="https://rzp.io/i/TpFbqFlD7">Rs. 1000</a>
+  </div>
+</div>
+
+</body>
+</html>
+
+
